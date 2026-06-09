@@ -63,21 +63,21 @@ export default function LandingPage() {
         {
           text: "Schedule Your Detail",          href: "#contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/close-up-car-care-process_23-2149193581.jpg"
-      imageAlt="Luxurious black sports car being detailed by Luxelay Detailing"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/car-polishing-close-up.jpg"
+      imageAlt="Luxurious car being polished by a professional detailer"
       showBlur={true}
       textPosition="bottom"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1602.jpg",          alt: "Smiling professional man"},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/professional-man-smiling-car.jpg",          alt: "Smiling professional man"},
         {
-          src: "http://img.b2bpic.net/free-photo/attractive-blond-business-woman-white-shirt-eyeglasses-crossed-arms-grey-background_613910-13618.jpg",          alt: "Successful businesswoman"},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/professional-woman-car-owner.jpg",          alt: "Successful businesswoman"},
         {
-          src: "http://img.b2bpic.net/free-photo/young-man-standing-by-his-car_1303-31495.jpg",          alt: "Elegant man car owner"},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/man-happy-with-car.jpg",          alt: "Elegant man car owner"},
         {
-          src: "http://img.b2bpic.net/free-photo/happy-man-car-dealership_23-2148130233.jpg",          alt: "Satisfied client happy car owner"},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/businesswoman-in-car-dealership.jpg",          alt: "Satisfied client happy car owner"},
         {
-          src: "http://img.b2bpic.net/free-photo/young-handsome-business-man-car-showrrom_1303-21194.jpg",          alt: "Young professional car enthusiast"},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/older-man-classic-car.jpg",          alt: "Young professional car enthusiast"},
       ]}
       avatarText="Trusted by over 1000+ car enthusiasts"
     />
@@ -100,11 +100,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Ceramic Coatings",          description: "Long-lasting protection for your paintwork, providing incredible gloss, hydrophobicity, and ease of maintenance.",          imageSrc: "http://img.b2bpic.net/free-photo/man-working-car-detailing-coating-car_1303-30600.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/beautiful-car-polishing-service_23-2149212230.jpg",          buttonText: "Learn More",          buttonHref: "#pricing"},
+          title: "Ceramic Coatings",          description: "Long-lasting protection for your paintwork, providing incredible gloss, hydrophobicity, and ease of maintenance.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/ceramic-coating-application.jpg",          titleImageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/water-beading-ceramic-coating.jpg",          buttonText: "Learn More",          buttonHref: "#pricing"},
         {
-          title: "Paint Correction",          description: "Restore your vehicle's paint to its pristine condition by eliminating swirls, scratches, and oxidation, revealing a mirror-like finish.",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-car-polishing-service_23-2149212247.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-process_23-2149193630.jpg",          buttonText: "Discover Paint Perfection",          buttonHref: "#pricing"},
+          title: "Paint Correction",          description: "Restore your vehicle's paint to its pristine condition by eliminating swirls, scratches, and oxidation, revealing a mirror-like finish.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/paint-correction-process.jpg",          titleImageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/swirl-removal-before-after.jpg",          buttonText: "Discover Paint Perfection",          buttonHref: "#pricing"},
         {
-          title: "Interior Restoration",          description: "Deep cleaning and conditioning of all interior surfaces, including leather, carpets, and trim, for a fresh, luxurious cabin.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-process_23-2149193619.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/man-polish-salon-car-garage_1157-36595.jpg",          buttonText: "Explore Interior Services",          buttonHref: "#pricing"},
+          title: "Interior Restoration",          description: "Deep cleaning and conditioning of all interior surfaces, including leather, carpets, and trim, for a fresh, luxurious cabin.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/interior-detailing-vacuum.jpg",          titleImageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/leather-conditioning.jpg",          buttonText: "Explore Interior Services",          buttonHref: "#pricing"},
       ]}
       title="Our Premium Services"
       description="Experience unparalleled care with our comprehensive detailing packages tailored to your vehicle's needs."
@@ -181,15 +181,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "1",          name: "Michael S.",          role: "Luxury Sedan Owner",          testimonial: "Luxelay Detailing transformed my car! The paint correction is flawless, and the ceramic coating provides an incredible shine. Truly a premium service.",          imageSrc: "http://img.b2bpic.net/free-photo/man-having-mobile-talk-while-waiting-electric-car-charge-station-eco-cars_1157-50634.jpg"},
+          id: "1",          name: "Michael S.",          role: "Luxury Sedan Owner",          testimonial: "Luxelay Detailing transformed my car! The paint correction is flawless, and the ceramic coating provides an incredible shine. Truly a premium service.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/man-happy-with-car.jpg"},
         {
-          id: "2",          name: "Sarah J.",          role: "Executive SUV Owner",          testimonial: "I'm incredibly particular about my vehicle, and Luxelay exceeded all expectations. The interior detailing made it feel brand new. Highly recommend!",          imageSrc: "http://img.b2bpic.net/free-photo/young-beautiful-woman-choosing-car-car-showroom_1303-22806.jpg"},
+          id: "2",          name: "Sarah J.",          role: "Executive SUV Owner",          testimonial: "I'm incredibly particular about my vehicle, and Luxelay exceeded all expectations. The interior detailing made it feel brand new. Highly recommend!",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/professional-woman-car-owner.jpg"},
         {
-          id: "3",          name: "David L.",          role: "Sports Car Enthusiast",          testimonial: "The attention to detail is unmatched. My sports car has never looked so good – the paint depth is phenomenal. Worth every penny for this level of care.",          imageSrc: "http://img.b2bpic.net/free-photo/handsome-bearded-male-sunglasses-dressed-black-suit-sitting-luxury-car-against-skyscraper_613910-19325.jpg"},
+          id: "3",          name: "David L.",          role: "Sports Car Enthusiast",          testimonial: "The attention to detail is unmatched. My sports car has never looked so good – the paint depth is phenomenal. Worth every penny for this level of care.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/professional-man-smiling-car.jpg"},
         {
-          id: "4",          name: "Emily R.",          role: "Fleet Manager",          testimonial: "We partnered with Luxelay for our dealership's premium vehicles, and their consistent quality and professionalism are outstanding. An invaluable service.",          imageSrc: "http://img.b2bpic.net/free-photo/happy-mechanic-greeting-his-customers-auto-repair-shop_637285-11563.jpg"},
+          id: "4",          name: "Emily R.",          role: "Fleet Manager",          testimonial: "We partnered with Luxelay for our dealership's premium vehicles, and their consistent quality and professionalism are outstanding. An invaluable service.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/businesswoman-in-car-dealership.jpg"},
         {
-          id: "5",          name: "Robert B.",          role: "Classic Car Collector",          testimonial: "Trusting my classic car to Luxelay was the best decision. They treated it with such respect and skill. The results are breathtaking.",          imageSrc: "http://img.b2bpic.net/free-photo/it-s-mercy-that-i-have-wireless-internet-here_329181-11608.jpg"},
+          id: "5",          name: "Robert B.",          role: "Classic Car Collector",          testimonial: "Trusting my classic car to Luxelay was the best decision. They treated it with such respect and skill. The results are breathtaking.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/older-man-classic-car.jpg"},
       ]}
       title="What Our Clients Say"
       description="Hear from discerning car owners who trust Luxelay Detailing for their prized possessions."
