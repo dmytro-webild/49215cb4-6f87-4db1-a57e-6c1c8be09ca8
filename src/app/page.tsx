@@ -6,7 +6,7 @@ import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardTwentyNine from '@/components/sections/feature/featureCardTwentyNine/FeatureCardTwentyNine';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import HeroOverlay from '@/components/sections/hero/HeroOverlay';
+import HeroBillboardDashboard from '@/components/sections/hero/HeroBillboardDashboard';
 import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
@@ -56,30 +56,41 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroOverlay
+      <HeroBillboardDashboard
       title="Luxury Detailing for Discerning Car Owners"
       description="Professional handapplied ceramic coatings, paint correction, and interior restoration that preserve your vehicle's pristine condition. Book your transformation today."
       buttons={[
         {
           text: "Schedule Your Detail",          href: "#contact"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/car-polishing-close-up.jpg"
-      imageAlt="Luxurious car being polished by a professional detailer"
-      showBlur={true}
-      textPosition="bottom"
-      avatars={[
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/professional-man-smiling-car.jpg",          alt: "Smiling professional man"},
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/professional-woman-car-owner.jpg",          alt: "Successful businesswoman"},
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/man-happy-with-car.jpg",          alt: "Elegant man car owner"},
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/businesswoman-in-car-dealership.jpg",          alt: "Satisfied client happy car owner"},
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/avatars/older-man-classic-car.jpg",          alt: "Young professional car enthusiast"},
-      ]}
-      avatarText="Trusted by over 1000+ car enthusiasts"
+      dashboard={{
+        title: "Luxelay Detailing Overview",        imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EuHt2ZxlmvkmNTdQSd3dWMTSTY/uploaded-1781024400128-d87twxr7.png",        imageAlt: "Luxelay Detailing Dashboard",        logoIcon: Car,
+        stats: [
+          {
+            title: "Jobs Completed",            values: [4500, 5000, 5500],
+            description: "Total services rendered"},
+          {
+            title: "Happy Clients",            values: [950, 1000, 1050],
+            description: "Satisfied customers"},
+          {
+            title: "Avg. Rating",            values: [4.8, 4.9, 5.0],
+            valueSuffix: "/5",            valueFormat: { minimumFractionDigits: 1, maximumFractionDigits: 1 },
+            description: "Customer feedback"},
+        ],
+        sidebarItems: [
+          { icon: Car, active: true },
+          { icon: Gauge },
+          { icon: Star },
+          { icon: Shield },
+        ],
+        buttons: [{ text: "View Services", href: "#services" }],
+        chartTitle: "Service Trends",        chartData: [{ value: 60 }, { value: 75 }, { value: 90 }, { value: 80 }, { value: 100 }, { value: 120 }],
+        listItems: [
+          { icon: Car, title: "Ceramic Pro Detail", status: "Upcoming" },
+          { icon: Paintbrush, title: "Paint Correction", status: "In Progress" },
+          { icon: Shield, title: "Interior Deep Clean", status: "Completed" },
+        ],
+      }}
     />
   </div>
 
