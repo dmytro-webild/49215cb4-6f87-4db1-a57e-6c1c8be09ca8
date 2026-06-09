@@ -34,37 +34,23 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "#hero",
-        },
+          name: "Home",          id: "#hero"},
         {
-          name: "About",
-          id: "#about",
-        },
+          name: "About",          id: "#about"},
         {
-          name: "Services",
-          id: "#services",
-        },
+          name: "Services",          id: "#services"},
         {
-          name: "Pricing",
-          id: "#pricing",
-        },
+          name: "Pricing",          id: "#pricing"},
         {
-          name: "Testimonials",
-          id: "#testimonials",
-        },
+          name: "Testimonials",          id: "#testimonials"},
         {
-          name: "FAQ",
-          id: "#faq",
-        },
+          name: "FAQ",          id: "#faq"},
       ]}
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=r6x4nr"
       logoAlt="Luxelay Detailing Logo"
       brandName="Luxelay Detailing"
       button={{
-        text: "Schedule Now",
-        href: "#contact",
-      }}
+        text: "Schedule Now",        href: "#contact"}}
       animateOnLoad={true}
     />
   </div>
@@ -75,9 +61,7 @@ export default function LandingPage() {
       description="Professional handapplied ceramic coatings, paint correction, and interior restoration that preserve your vehicle's pristine condition. Book your transformation today."
       buttons={[
         {
-          text: "Schedule Your Detail",
-          href: "#contact",
-        },
+          text: "Schedule Your Detail",          href: "#contact"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/close-up-car-care-process_23-2149193581.jpg"
       imageAlt="Luxurious black sports car being detailed by Luxelay Detailing"
@@ -85,25 +69,15 @@ export default function LandingPage() {
       textPosition="bottom"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1602.jpg",
-          alt: "Smiling professional man",
-        },
+          src: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1602.jpg",          alt: "Smiling professional man"},
         {
-          src: "http://img.b2bpic.net/free-photo/attractive-blond-business-woman-white-shirt-eyeglasses-crossed-arms-grey-background_613910-13618.jpg",
-          alt: "Successful businesswoman",
-        },
+          src: "http://img.b2bpic.net/free-photo/attractive-blond-business-woman-white-shirt-eyeglasses-crossed-arms-grey-background_613910-13618.jpg",          alt: "Successful businesswoman"},
         {
-          src: "http://img.b2bpic.net/free-photo/young-man-standing-by-his-car_1303-31495.jpg",
-          alt: "Elegant man car owner",
-        },
+          src: "http://img.b2bpic.net/free-photo/young-man-standing-by-his-car_1303-31495.jpg",          alt: "Elegant man car owner"},
         {
-          src: "http://img.b2bpic.net/free-photo/happy-man-car-dealership_23-2148130233.jpg",
-          alt: "Satisfied client happy car owner",
-        },
+          src: "http://img.b2bpic.net/free-photo/happy-man-car-dealership_23-2148130233.jpg",          alt: "Satisfied client happy car owner"},
         {
-          src: "http://img.b2bpic.net/free-photo/young-handsome-business-man-car-showrrom_1303-21194.jpg",
-          alt: "Young professional car enthusiast",
-        },
+          src: "http://img.b2bpic.net/free-photo/young-handsome-business-man-car-showrrom_1303-21194.jpg",          alt: "Young professional car enthusiast"},
       ]}
       avatarText="Trusted by over 1000+ car enthusiasts"
     />
@@ -114,10 +88,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="About Luxelay Detailing"
       description={[
-        "At Luxelay Detailing, we are passionate about automotive perfection. We believe every vehicle deserves meticulous care and attention to detail, transforming it beyond its original showroom finish. Our expertise ensures your investment is protected and its aesthetic appeal is maximized.",
-        "Our team comprises highly skilled professionals who use only the finest products and techniques. From advanced paint correction to durable ceramic coatings and luxurious interior restoration, we deliver unparalleled results that speak for themselves.",
-        "We cater to discerning car owners who demand the best for their vehicles. With transparent pricing, flexible scheduling, and a commitment to customer satisfaction, Luxelay Detailing is your trusted partner for premium car care.",
-      ]}
+        "At Luxelay Detailing, we are passionate about automotive perfection. We believe every vehicle deserves meticulous care and attention to detail, transforming it beyond its original showroom finish. Our expertise ensures your investment is protected and its aesthetic appeal is maximized.",        "Our team comprises highly skilled professionals who use only the finest products and techniques. From advanced paint correction to durable ceramic coatings and luxurious interior restoration, we deliver unparalleled results that speak for themselves.",        "We cater to discerning car owners who demand the best for their vehicles. With transparent pricing, flexible scheduling, and a commitment to customer satisfaction, Luxelay Detailing is your trusted partner for premium car care."]}
     />
   </div>
 
@@ -129,29 +100,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Ceramic Coatings",
-          description: "Long-lasting protection for your paintwork, providing incredible gloss, hydrophobicity, and ease of maintenance.",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-working-car-detailing-coating-car_1303-30600.jpg",
-          titleImageSrc: "http://img.b2bpic.net/free-photo/beautiful-car-polishing-service_23-2149212230.jpg",
-          buttonText: "Learn More",
-          buttonHref: "#pricing",
-        },
+          title: "Ceramic Coatings",          description: "Long-lasting protection for your paintwork, providing incredible gloss, hydrophobicity, and ease of maintenance.",          imageSrc: "http://img.b2bpic.net/free-photo/man-working-car-detailing-coating-car_1303-30600.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/beautiful-car-polishing-service_23-2149212230.jpg",          buttonText: "Learn More",          buttonHref: "#pricing"},
         {
-          title: "Paint Correction",
-          description: "Restore your vehicle's paint to its pristine condition by eliminating swirls, scratches, and oxidation, revealing a mirror-like finish.",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-car-polishing-service_23-2149212247.jpg",
-          titleImageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-process_23-2149193630.jpg",
-          buttonText: "Discover Paint Perfection",
-          buttonHref: "#pricing",
-        },
+          title: "Paint Correction",          description: "Restore your vehicle's paint to its pristine condition by eliminating swirls, scratches, and oxidation, revealing a mirror-like finish.",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-car-polishing-service_23-2149212247.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-process_23-2149193630.jpg",          buttonText: "Discover Paint Perfection",          buttonHref: "#pricing"},
         {
-          title: "Interior Restoration",
-          description: "Deep cleaning and conditioning of all interior surfaces, including leather, carpets, and trim, for a fresh, luxurious cabin.",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-process_23-2149193619.jpg",
-          titleImageSrc: "http://img.b2bpic.net/free-photo/man-polish-salon-car-garage_1157-36595.jpg",
-          buttonText: "Explore Interior Services",
-          buttonHref: "#pricing",
-        },
+          title: "Interior Restoration",          description: "Deep cleaning and conditioning of all interior surfaces, including leather, carpets, and trim, for a fresh, luxurious cabin.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-process_23-2149193619.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/man-polish-salon-car-garage_1157-36595.jpg",          buttonText: "Explore Interior Services",          buttonHref: "#pricing"},
       ]}
       title="Our Premium Services"
       description="Experience unparalleled care with our comprehensive detailing packages tailored to your vehicle's needs."
@@ -165,62 +118,30 @@ export default function LandingPage() {
       useInvertedBackground={true}
       plans={[
         {
-          id: "basic-package",
-          badge: "Entry",
-          price: "$299",
-          subtitle: "Essential care for a brilliant shine.",
-          buttons: [
+          id: "basic-package",          badge: "Entry",          price: "$299",          subtitle: "Essential care for a brilliant shine.",          buttons: [
             {
-              text: "Select Basic",
-              href: "#contact",
-            },
+              text: "Select Basic",              href: "#contact"},
           ],
           features: [
-            "Exterior wash & wax",
-            "Interior vacuum & wipe down",
-            "Tire dressing",
-            "Window cleaning",
-          ],
+            "Exterior wash & wax",            "Interior vacuum & wipe down",            "Tire dressing",            "Window cleaning"],
         },
         {
-          id: "premium-package",
-          badge: "Popular",
-          badgeIcon: Sparkles,
-          price: "$599",
-          subtitle: "Enhanced detailing for lasting beauty.",
-          buttons: [
+          id: "premium-package",          badge: "Popular",          badgeIcon: Sparkles,
+          price: "$599",          subtitle: "Enhanced detailing for lasting beauty.",          buttons: [
             {
-              text: "Choose Premium",
-              href: "#contact",
-            },
+              text: "Choose Premium",              href: "#contact"},
           ],
           features: [
-            "All Basic features",
-            "Single-stage paint correction",
-            "Sealant application (6-month)",
-            "Deep interior cleaning",
-            "Leather conditioning",
-          ],
+            "All Basic features",            "Single-stage paint correction",            "Sealant application (6-month)",            "Deep interior cleaning",            "Leather conditioning"],
         },
         {
-          id: "ceramic-package",
-          badge: "Ultimate",
-          badgeIcon: Shield,
-          price: "$1299",
-          subtitle: "Unrivaled protection and perfection.",
-          buttons: [
+          id: "ceramic-package",          badge: "Ultimate",          badgeIcon: Shield,
+          price: "$1299",          subtitle: "Unrivaled protection and perfection.",          buttons: [
             {
-              text: "Go Ultimate",
-              href: "#contact",
-            },
+              text: "Go Ultimate",              href: "#contact"},
           ],
           features: [
-            "All Premium features",
-            "Multi-stage paint correction",
-            "Ceramic coating (3-year)",
-            "Engine bay detailing",
-            "Wheel & caliper coating",
-          ],
+            "All Premium features",            "Multi-stage paint correction",            "Ceramic coating (3-year)",            "Engine bay detailing",            "Wheel & caliper coating"],
         },
       ]}
       title="Transparent Pricing & Packages"
@@ -233,34 +154,19 @@ export default function LandingPage() {
       textboxLayout="default"
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={false}
+      animationType="slide-up"
       metrics={[
         {
-          id: "years",
-          value: "10+",
-          title: "Years of Experience",
-          description: "A decade perfecting the art of automotive detailing.",
-          icon: Gauge,
+          id: "years",          value: "10+",          title: "Years of Experience",          description: "A decade perfecting the art of automotive detailing.",          icon: Gauge,
         },
         {
-          id: "vehicles",
-          value: "5000+",
-          title: "Vehicles Detailed",
-          description: "Thousands of cars restored to their showroom glory.",
-          icon: Car,
+          id: "vehicles",          value: "5000+",          title: "Vehicles Detailed",          description: "Thousands of cars restored to their showroom glory.",          icon: Car,
         },
         {
-          id: "satisfaction",
-          value: "99%",
-          title: "Client Satisfaction",
-          description: "Our clients consistently praise our results and service.",
-          icon: Star,
+          id: "satisfaction",          value: "99%",          title: "Client Satisfaction",          description: "Our clients consistently praise our results and service.",          icon: Star,
         },
         {
-          id: "coatings",
-          value: "1000+",
-          title: "Ceramic Coatings Applied",
-          description: "Expertly protecting vehicles with advanced ceramic solutions.",
-          icon: Paintbrush,
+          id: "coatings",          value: "1000+",          title: "Ceramic Coatings Applied",          description: "Expertly protecting vehicles with advanced ceramic solutions.",          icon: Paintbrush,
         },
       ]}
       title="Years of Dedicated Craftsmanship"
@@ -275,40 +181,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "1",
-          name: "Michael S.",
-          role: "Luxury Sedan Owner",
-          testimonial: "Luxelay Detailing transformed my car! The paint correction is flawless, and the ceramic coating provides an incredible shine. Truly a premium service.",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-having-mobile-talk-while-waiting-electric-car-charge-station-eco-cars_1157-50634.jpg",
-        },
+          id: "1",          name: "Michael S.",          role: "Luxury Sedan Owner",          testimonial: "Luxelay Detailing transformed my car! The paint correction is flawless, and the ceramic coating provides an incredible shine. Truly a premium service.",          imageSrc: "http://img.b2bpic.net/free-photo/man-having-mobile-talk-while-waiting-electric-car-charge-station-eco-cars_1157-50634.jpg"},
         {
-          id: "2",
-          name: "Sarah J.",
-          role: "Executive SUV Owner",
-          testimonial: "I'm incredibly particular about my vehicle, and Luxelay exceeded all expectations. The interior detailing made it feel brand new. Highly recommend!",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-beautiful-woman-choosing-car-car-showroom_1303-22806.jpg",
-        },
+          id: "2",          name: "Sarah J.",          role: "Executive SUV Owner",          testimonial: "I'm incredibly particular about my vehicle, and Luxelay exceeded all expectations. The interior detailing made it feel brand new. Highly recommend!",          imageSrc: "http://img.b2bpic.net/free-photo/young-beautiful-woman-choosing-car-car-showroom_1303-22806.jpg"},
         {
-          id: "3",
-          name: "David L.",
-          role: "Sports Car Enthusiast",
-          testimonial: "The attention to detail is unmatched. My sports car has never looked so good – the paint depth is phenomenal. Worth every penny for this level of care.",
-          imageSrc: "http://img.b2bpic.net/free-photo/handsome-bearded-male-sunglasses-dressed-black-suit-sitting-luxury-car-against-skyscraper_613910-19325.jpg",
-        },
+          id: "3",          name: "David L.",          role: "Sports Car Enthusiast",          testimonial: "The attention to detail is unmatched. My sports car has never looked so good – the paint depth is phenomenal. Worth every penny for this level of care.",          imageSrc: "http://img.b2bpic.net/free-photo/handsome-bearded-male-sunglasses-dressed-black-suit-sitting-luxury-car-against-skyscraper_613910-19325.jpg"},
         {
-          id: "4",
-          name: "Emily R.",
-          role: "Fleet Manager",
-          testimonial: "We partnered with Luxelay for our dealership's premium vehicles, and their consistent quality and professionalism are outstanding. An invaluable service.",
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-mechanic-greeting-his-customers-auto-repair-shop_637285-11563.jpg",
-        },
+          id: "4",          name: "Emily R.",          role: "Fleet Manager",          testimonial: "We partnered with Luxelay for our dealership's premium vehicles, and their consistent quality and professionalism are outstanding. An invaluable service.",          imageSrc: "http://img.b2bpic.net/free-photo/happy-mechanic-greeting-his-customers-auto-repair-shop_637285-11563.jpg"},
         {
-          id: "5",
-          name: "Robert B.",
-          role: "Classic Car Collector",
-          testimonial: "Trusting my classic car to Luxelay was the best decision. They treated it with such respect and skill. The results are breathtaking.",
-          imageSrc: "http://img.b2bpic.net/free-photo/it-s-mercy-that-i-have-wireless-internet-here_329181-11608.jpg",
-        },
+          id: "5",          name: "Robert B.",          role: "Classic Car Collector",          testimonial: "Trusting my classic car to Luxelay was the best decision. They treated it with such respect and skill. The results are breathtaking.",          imageSrc: "http://img.b2bpic.net/free-photo/it-s-mercy-that-i-have-wireless-internet-here_329181-11608.jpg"},
       ]}
       title="What Our Clients Say"
       description="Hear from discerning car owners who trust Luxelay Detailing for their prized possessions."
@@ -320,14 +201,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Luxury Motors",
-        "Classic Ride Club",
-        "Elite Auto Group",
-        "Performance Garage",
-        "Signature Rentals",
-        "Prestige Insurance",
-        "Exclusive Properties",
-      ]}
+        "Luxury Motors",        "Classic Ride Club",        "Elite Auto Group",        "Performance Garage",        "Signature Rentals",        "Prestige Insurance",        "Exclusive Properties"]}
       title="Trusted by Car Enthusiasts & Dealers"
       description="Our reputation is built on consistent quality and unwavering dedication to automotive perfection. We partner with leading brands and serve discerning clients."
     />
@@ -339,25 +213,13 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "faq-1",
-          title: "What is ceramic coating and how long does it last?",
-          content: "Ceramic coating is a liquid polymer applied to a vehicle's exterior that chemically bonds with the factory paint, creating a layer of protection. It offers superior gloss, hydrophobic properties, and protection against UV rays, chemicals, and minor scratches. Depending on the product and maintenance, it can last from 2 to 7 years.",
-        },
+          id: "faq-1",          title: "What is ceramic coating and how long does it last?",          content: "Ceramic coating is a liquid polymer applied to a vehicle's exterior that chemically bonds with the factory paint, creating a layer of protection. It offers superior gloss, hydrophobic properties, and protection against UV rays, chemicals, and minor scratches. Depending on the product and maintenance, it can last from 2 to 7 years."},
         {
-          id: "faq-2",
-          title: "How often should I have my car detailed?",
-          content: "The frequency depends on several factors: how often you drive, where you park, and your personal standards. For optimal protection and appearance, we recommend a full detail every 6-12 months. Regular maintenance washes can extend the life of your detail.",
-        },
+          id: "faq-2",          title: "How often should I have my car detailed?",          content: "The frequency depends on several factors: how often you drive, where you park, and your personal standards. For optimal protection and appearance, we recommend a full detail every 6-12 months. Regular maintenance washes can extend the life of your detail."},
         {
-          id: "faq-3",
-          title: "What's the difference between waxing and ceramic coating?",
-          content: "Waxing offers temporary protection and gloss, usually lasting a few weeks to months. Ceramic coatings, being a more advanced technology, form a much harder, more durable, and longer-lasting protective layer that can endure for years, offering enhanced chemical and UV resistance.",
-        },
+          id: "faq-3",          title: "What's the difference between waxing and ceramic coating?",          content: "Waxing offers temporary protection and gloss, usually lasting a few weeks to months. Ceramic coatings, being a more advanced technology, form a much harder, more durable, and longer-lasting protective layer that can endure for years, offering enhanced chemical and UV resistance."},
         {
-          id: "faq-4",
-          title: "Do you offer mobile detailing services?",
-          content: "Currently, Luxelay Detailing operates from our dedicated studio to ensure a controlled environment for the highest quality results, especially for services like ceramic coatings and paint correction. This allows us to deliver unparalleled perfection that mobile services often cannot guarantee due to environmental factors.",
-        },
+          id: "faq-4",          title: "Do you offer mobile detailing services?",          content: "Currently, Luxelay Detailing operates from our dedicated studio to ensure a controlled environment for the highest quality results, especially for services like ceramic coatings and paint correction. This allows us to deliver unparalleled perfection that mobile services often cannot guarantee due to environmental factors."},
       ]}
       title="Frequently Asked Questions"
       description="Find quick answers to common questions about our services, booking process, and what to expect."
@@ -369,16 +231,13 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "radial-gradient",
-      }}
+        variant: "radial-gradient"}}
       tag="Get In Touch"
       title="Ready for a Showroom Finish?"
       description="Schedule your premium detailing service today and let us restore your vehicle's brilliance. Reach out to our team for a personalized consultation."
       buttons={[
         {
-          text: "Book Your Detail Now",
-          href: "mailto:info@luxelaydetailing.com?subject=Inquiry%20from%20Website&body=I%20would%20like%20to%20inquire%20about%20your%20detailing%20services.",
-        },
+          text: "Book Your Detail Now",          href: "mailto:info@luxelaydetailing.com?subject=Inquiry%20from%20Website&body=I%20would%20like%20to%20inquire%20about%20your%20detailing%20services."},
       ]}
     />
   </div>
@@ -392,19 +251,13 @@ export default function LandingPage() {
       socialLinks={[
         {
           icon: Facebook,
-          href: "https://www.facebook.com/luxelaydetailing",
-          ariaLabel: "Facebook",
-        },
+          href: "https://www.facebook.com/luxelaydetailing",          ariaLabel: "Facebook"},
         {
           icon: Instagram,
-          href: "https://www.instagram.com/luxelaydetailing",
-          ariaLabel: "Instagram",
-        },
+          href: "https://www.instagram.com/luxelaydetailing",          ariaLabel: "Instagram"},
         {
           icon: Twitter,
-          href: "https://twitter.com/luxelaydetailing",
-          ariaLabel: "Twitter",
-        },
+          href: "https://twitter.com/luxelaydetailing",          ariaLabel: "Twitter"},
       ]}
     />
   </div>
