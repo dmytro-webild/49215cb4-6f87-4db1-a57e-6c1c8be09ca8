@@ -266,7 +266,7 @@ export default function LandingPage() {
           href: "https://www.facebook.com/luxelaydetailing",          ariaLabel: "Facebook"},
         {
           icon: Instagram,
-          href: "https://www.instagram.com/luxelaydetailing",          ariaLabel: "Instagram"},
+          href: "https://www.instagram.com/luxelay_detailing?igsh=NGJkdWw0d2Q4cHAy&utm_source=qr",          ariaLabel: "Instagram"},
         {
           icon: Twitter,
           href: "https://twitter.com/luxelaydetailing",          ariaLabel: "Twitter"},
