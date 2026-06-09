@@ -59,6 +59,7 @@ export default function LandingPage() {
       <HeroBillboardDashboard
       title="Luxury Detailing for Discerning Car Owners"
       description="Professional handapplied ceramic coatings, paint correction, and interior restoration that preserve your vehicle's pristine condition. Book your transformation today."
+      background={{ variant: "plain" }}
       buttons={[
         {
           text: "Schedule Your Detail",          href: "#contact"},
