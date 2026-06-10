@@ -247,13 +247,7 @@ export default function LandingPage() {
       tag="Schedule Your Service"
       title="Book Your Luxury Detailing Appointment"
       description="Use our simple booking process to select your services and preferred time slot. We'll confirm your appointment shortly."
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EuHt2ZxlmvkmNTdQSd3dWMTSTY/uploaded-1781061926387-0noz3i7y.png"
-      imageAlt="Online booking process for car detailing"
-      mediaPosition="right"
-      inputPlaceholder="Your Email Address"
       buttonText="Proceed to Scheduling"
-      termsText="By clicking 'Proceed to Scheduling', you agree to our Terms of Service and Privacy Policy."
-      onSubmit={(email) => alert(`Booking initiated for ${email}`)}
     />
   </div>
 
