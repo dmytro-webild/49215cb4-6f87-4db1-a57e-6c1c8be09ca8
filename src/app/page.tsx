@@ -34,23 +34,25 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",          id: "#hero"},
+          name: "Home",          id: "/"},
         {
-          name: "About",          id: "#about"},
+          name: "About",          id: "/#about"},
         {
-          name: "Services",          id: "#services"},
+          name: "Services",          id: "/#services"},
         {
-          name: "Pricing",          id: "#pricing"},
+          name: "Pricing",          id: "/#pricing"},
         {
-          name: "Testimonials",          id: "#testimonials"},
+          name: "Testimonials",          id: "/#testimonials"},
         {
-          name: "FAQ",          id: "#faq"},
+          name: "FAQ",          id: "/#faq"},
+        {
+          name: "Book Now",          id: "/book-now"},
       ]}
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=r6x4nr"
       logoAlt="Luxelay Detailing Logo"
       brandName="Luxelay Detailing"
       button={{
-        text: "Schedule Now",        href: "#contact"}}
+        text: "Schedule Now",        href: "/book-now"}}
       animateOnLoad={true}
     />
   </div>
@@ -62,7 +64,7 @@ export default function LandingPage() {
       background={{ variant: "plain" }}
       buttons={[
         {
-          text: "Schedule Your Detail",          href: "#contact"},
+          text: "Schedule Your Detail",          href: "/book-now"},
       ]}
       dashboard={{
         title: "Luxelay Detailing Overview",        imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EuHt2ZxlmvkmNTdQSd3dWMTSTY/uploaded-1781024400128-d87twxr7.png",        imageAlt: "Luxelay Detailing Dashboard",        logoIcon: Car,
@@ -84,7 +86,7 @@ export default function LandingPage() {
           { icon: Star },
           { icon: Shield },
         ],
-        buttons: [{ text: "View Services", href: "#services" }],
+        buttons: [{ text: "View Services", href: "/#services" }],
         chartTitle: "Service Trends",        chartData: [{ value: 60 }, { value: 75 }, { value: 90 }, { value: 80 }, { value: 100 }, { value: 120 }],
         listItems: [
           { icon: Car, title: "Ceramic Pro Detail", status: "Upcoming" },
@@ -112,11 +114,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Ceramic Coatings",          description: "Long-lasting protection for your paintwork, providing incredible gloss, hydrophobicity, and ease of maintenance.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EuHt2ZxlmvkmNTdQSd3dWMTSTY/uploaded-1781025421248-x7yupibh.jpg",          titleImageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/water-beading-ceramic-coating.jpg",          buttonText: "Learn More",          buttonHref: "#pricing"},
+          title: "Ceramic Coatings",          description: "Long-lasting protection for your paintwork, providing incredible gloss, hydrophobicity, and ease of maintenance.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EuHt2ZxlmvkmNTdQSd3dWMTSTY/uploaded-1781025421248-x7yupibh.jpg",          titleImageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/water-beading-ceramic-coating.jpg",          buttonText: "Learn More",          buttonHref: "/#pricing"},
         {
-          title: "Paint Correction",          description: "Restore your vehicle's paint to its pristine condition by eliminating swirls, scratches, and oxidation, revealing a mirror-like finish.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EuHt2ZxlmvkmNTdQSd3dWMTSTY/uploaded-1781025421248-kaafmzan.jpg",          titleImageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/swirl-removal-before-after.jpg",          buttonText: "Discover Paint Perfection",          buttonHref: "#pricing"},
+          title: "Paint Correction",          description: "Restore your vehicle's paint to its pristine condition by eliminating swirls, scratches, and oxidation, revealing a mirror-like finish.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EuHt2ZxlmvkmNTdQSd3dWMTSTY/uploaded-1781025421248-kaafmzan.jpg",          titleImageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/swirl-removal-before-after.jpg",          buttonText: "Discover Paint Perfection",          buttonHref: "/#pricing"},
         {
-          title: "Interior Restoration",          description: "Deep cleaning and conditioning of all interior surfaces, including leather, carpets, and trim, for a fresh, luxurious cabin.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EuHt2ZxlmvkmNTdQSd3dWMTSTY/uploaded-1781029374249-dg45uvps.jpg",          titleImageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/leather-conditioning.jpg",          buttonText: "Explore Interior Services",          buttonHref: "#pricing"},
+          title: "Interior Restoration",          description: "Deep cleaning and conditioning of all interior surfaces, including leather, carpets, and trim, for a fresh, luxurious cabin.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EuHt2ZxlmvkmNTdQSd3dWMTSTY/uploaded-1781029374249-dg45uvps.jpg",          titleImageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/stock/car-detailing/leather-conditioning.jpg",          buttonText: "Explore Interior Services",          buttonHref: "/#pricing"},
       ]}
       title="Our Premium Services"
       description="Experience unparalleled care with our comprehensive detailing packages tailored to your vehicle's needs."
@@ -132,7 +134,7 @@ export default function LandingPage() {
         {
           id: "basic-package",          badge: "Entry",          price: "$299",          subtitle: "Essential care for a brilliant shine.",          buttons: [
             {
-              text: "Select Basic",              href: "#contact"},
+              text: "Select Basic",              href: "/book-now"},
           ],
           features: [
             "Exterior wash & wax",            "Interior vacuum & wipe down",            "Tire dressing",            "Window cleaning"],
@@ -141,7 +143,7 @@ export default function LandingPage() {
           id: "premium-package",          badge: "Popular",          badgeIcon: Sparkles,
           price: "$599",          subtitle: "Enhanced detailing for lasting beauty.",          buttons: [
             {
-              text: "Choose Premium",              href: "#contact"},
+              text: "Choose Premium",              href: "/book-now"},
           ],
           features: [
             "All Basic features",            "Single-stage paint correction",            "Sealant application (6-month)",            "Deep interior cleaning",            "Leather conditioning"],
@@ -150,7 +152,7 @@ export default function LandingPage() {
           id: "ceramic-package",          badge: "Ultimate",          badgeIcon: Shield,
           price: "$1299",          subtitle: "Unrivaled protection and perfection.",          buttons: [
             {
-              text: "Go Ultimate",              href: "#contact"},
+              text: "Go Ultimate",              href: "/book-now"},
           ],
           features: [
             "All Premium features",            "Multi-stage paint correction",            "Ceramic coating (3-year)",            "Engine bay detailing",            "Wheel & caliper coating"],
@@ -244,10 +246,10 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "radial-gradient"}}
-      tag="Schedule Your Service"
-      title="Book Your Luxury Detailing Appointment"
-      description="Use our simple booking process to select your services and preferred time slot. We'll confirm your appointment shortly."
-      buttonText="Proceed to Scheduling"
+      tag="General Inquiries"
+      title="Have General Questions?"
+      description="Fill out the form below for general inquiries, feedback, or any non-booking related questions. We'll get back to you promptly."
+      buttonText="Send Message"
     />
   </div>
 
