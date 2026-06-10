@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
+import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardTwentyNine from '@/components/sections/feature/featureCardTwentyNine/FeatureCardTwentyNine';
 import FooterCard from '@/components/sections/footer/FooterCard';
@@ -240,17 +240,20 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCTA
+      <ContactSplit
       useInvertedBackground={false}
       background={{
         variant: "radial-gradient"}}
-      tag="Get In Touch"
-      title="Ready for a Showroom Finish?"
-      description="Schedule your premium detailing service today and let us restore your vehicle's brilliance. Reach out to our team for a personalized consultation."
-      buttons={[
-        {
-          text: "Book Your Detail Now",          href: "mailto:info@luxelaydetailing.com?subject=Inquiry%20from%20Website&body=I%20would%20like%20to%20inquire%20about%20your%20detailing%20services."},
-      ]}
+      tag="Schedule Your Service"
+      title="Book Your Luxury Detailing Appointment"
+      description="Use our simple booking process to select your services and preferred time slot. We'll confirm your appointment shortly."
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EuHt2ZxlmvkmNTdQSd3dWMTSTY/uploaded-1781061926387-0noz3i7y.png"
+      imageAlt="Online booking process for car detailing"
+      mediaPosition="right"
+      inputPlaceholder="Your Email Address"
+      buttonText="Proceed to Scheduling"
+      termsText="By clicking 'Proceed to Scheduling', you agree to our Terms of Service and Privacy Policy."
+      onSubmit={(email) => alert(`Booking initiated for ${email}`)}
     />
   </div>
 
